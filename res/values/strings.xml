@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhotoAlbum</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+</resources>
