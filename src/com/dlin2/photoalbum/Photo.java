@@ -27,9 +27,9 @@ public class Photo extends Activity {
 	}
 	public OnClickListener onClickListener = new OnClickListener() 
 	{
-		 int counter = 0;
-		 // The images are located in res/drawable-xxhdpi
-		 final Integer pics[] = 
+	        int counter = 0;
+	        // The images are located in res/drawable-xxhdpi
+		final Integer pics[] = 
 			{
 			R.drawable.alhambra, 
 			R.drawable.colossus,
@@ -47,10 +47,10 @@ public class Photo extends Activity {
 	         {
 	             case R.id.b1:
 	            	 if(counter < 6)
-						{
-							counter++;
-							ib.setImageResource(pics[counter]);
-						}
+			 {
+				counter++;
+				ib.setImageResource(pics[counter]);
+			 }
 	             break;
 	             case R.id.b2:
 	            	 if(counter > 0)
