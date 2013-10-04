@@ -1,3 +1,4 @@
+// Darren Lin
 package com.dlin2.photoalbum;
 
 import android.os.Bundle;
